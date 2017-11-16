@@ -9,5 +9,7 @@ describe('prime_sifting') do
   it("remove all multiples of prime equal 2 from the list") do
   expect(prime_sifting(5)).to(eq([2,3,5]))
   end
-
+  # it("remove all multiples of prime incremented by 1") do
+  # expect(prime_sifting(9)).to(eq([2,3,5,7]))
+  # end
 end
